@@ -1,20 +1,60 @@
 aid: flick
 name: Flick
-description: Flick is a company surfaced as a portfolio company of bullpen-capital, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flick is an AI filmmaking studio that lets creators direct short films with AI on an
+  infinite, node-based canvas. Rather than a linear prompt-to-clip generator, Flick gives
+  directors a nonlinear workspace to plan, iterate and assemble complete narratives of any
+  length — generating scenes, keeping character faces and styles consistent across shots,
+  controlling shot composition, and editing images by reference. The product is a web app
+  with a free tier (300 credits) and paid plans from $5/month, plus a Creative Partner
+  Program and a Filmmaker Residency for AI filmmakers. Flick was founded by Ray Wang
+  (previously a founding engineer on the Instagram AI team) and award-winning filmmaker
+  Zoey Zhang, and is Y Combinator- and GV-backed. Flick publishes product documentation, a
+  blog and a verbatim llms.txt, but does not currently expose a public developer API,
+  SDKs, webhooks or an MCP server — the /api/ surface is an internal application API that
+  robots.txt explicitly disallows.
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flick.art/og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/flick/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
-- bullpen-capital
 - gv
-x-tier: stub
-x-tier-reason: portfolio-lead
+- y-combinator
+x-tier: profiled
+x-tier-reason: live-company-no-public-api
+x-identity-note: >-
+  This repo was created as a merged stub from two different companies both named "Flick".
+  The Bullpen Capital portfolio entry (https://www.flickapp.com) is a DIFFERENT, DEFUNCT
+  company — a sports fan-engagement group-chat app founded in Edinburgh by FanDuel
+  co-founders Nigel Eccles and Rob Jones; it is deadpooled and flickapp.com now resolves to
+  an unrelated Indonesian gambling spam site (verified 2026-07-20, soft-404 catch-all
+  returning HTTP 200 for every path). That domain has been removed from this profile. This
+  repo now profiles the LIVE company from the GV portfolio: Flick (https://flick.art), the
+  AI filmmaking studio. The defunct flickapp.com company should be tracked separately (or
+  dropped) rather than conflated here.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Video
+- Filmmaking
+- Media and Entertainment
+- Creative Tools
+- Content Creation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +63,41 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.flickapp.com
+  url: https://flick.art
+- type: Documentation
+  url: https://flick.art/docs/
+- type: GettingStarted
+  url: https://flick.art/docs/create-your-first-project
+- type: Blog
+  url: https://flick.art/blog
+- type: Pricing
+  url: https://flick.art/pricing
+- type: SignUp
+  url: https://flick.art/auth
+- type: TermsOfService
+  url: https://flick.art/terms
+- type: PrivacyPolicy
+  url: https://flick.art/privacy
+- type: Support
+  url: https://discord.gg/SPYgXej78k
+- type: About
+  url: https://flick.art/about
+- type: Careers
+  url: https://flick.art/careers
+- type: Twitter
+  url: https://x.com/flickartHQ
+- type: LinkedIn
+  url: https://www.linkedin.com/company/flickart/
+- type: YouTube
+  url: https://www.youtube.com/@Flickart-ai
+- type: Instagram
+  url: https://www.instagram.com/flickartai/
+- type: LLMsTxt
+  url: llms/flick-llms.txt
+- type: DomainSecurity
+  url: security/flick-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

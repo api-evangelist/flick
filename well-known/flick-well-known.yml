@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://flick.art/
+host: https://flick.art
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the Flick production
+  host. Every path returned a real 404 (the host does return genuine 404s for
+  unknown /.well-known/ paths, so these are true negatives, not soft-404s).
+  Flick publishes no /.well-known/ documents. A real /llms.txt IS published and
+  is captured verbatim at llms/flick-llms.txt.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other:
+- path: /llms.txt
+  status: 200
+  file: ../llms/flick-llms.txt
+- path: /robots.txt
+  status: 200
+- path: /sitemap-index.xml
+  status: 200

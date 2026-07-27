@@ -1,0 +1,24 @@
+# Flick
+
+> Flick is an AI filmmaking studio for directing short films with AI — generate scenes, keep characters consistent, control shots, and build complete narratives on an infinite canvas. We handle the AI; you direct the story.
+
+Flick is a web app (free tier available; YC-backed). It differs from prompt-to-clip tools by giving creators a nonlinear, node-based canvas to plan, iterate, and assemble full films of any length, with character consistency across scenes.
+
+## Key pages
+
+- [Home](https://flick.art/): What Flick is and how the infinite canvas works.
+- [Pricing](https://flick.art/pricing): Plans and credits. Free tier (300 credits); paid plans from $5/mo.
+- [About](https://flick.art/about): The team behind Flick.
+- [Creative Partner Program](https://flick.art/creative-partners): For AI filmmakers — credits, early access, showcase.
+- [Filmmaker Residency](https://flick.art/residency): Credits, mentorship, and a director community.
+- [Careers](https://flick.art/careers): Open roles.
+- [Docs](https://flick.art/docs/): How to create AI films with Flick.
+
+## FAQ
+
+- What is Flick? An AI filmmaking platform for creating story-driven videos on an infinite canvas — generate scenes, maintain consistent characters, control shots, and build complete narratives in one place.
+- What is the Infinite Canvas? An open, node-based filmmaking space to design stories, scenes, and visuals in any order, instead of a linear prompt-to-video workflow.
+- Can Flick make long-form videos? Yes. Unlike tools that only produce short isolated clips, Flick lets you direct an entire film, structuring scenes and shots to any length.
+- Does Flick keep characters consistent across scenes? Yes. Use Edit Image to reference a character and Flick keeps their face, style, and identity consistent across shots.
+- How much does Flick cost? Every account starts with 300 free credits. Paid plans: Casual $5/mo (500 credits), Standard $20/mo (2,500 credits, full model access), Pro $45/mo (8,000 credits), Studio from $120/mo (20,000+ credits). Annual billing saves 20%.
+- How can I earn free credits? Join the Flick Discord (200 credits) and refer friends (200 credits on signup, plus 2,000 when they subscribe to Standard or higher).
