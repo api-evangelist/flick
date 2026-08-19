@@ -43,7 +43,7 @@ x-identity-note: >-
   repo now profiles the LIVE company from the GV portfolio: Flick (https://flick.art), the
   AI filmmaking studio. The defunct flickapp.com company should be tracked separately (or
   dropped) rather than conflated here.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
