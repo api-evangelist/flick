@@ -13,6 +13,17 @@ description: >-
   blog and a verbatim llms.txt, but does not currently expose a public developer API,
   SDKs, webhooks or an MCP server — the /api/ surface is an internal application API that
   robots.txt explicitly disallows.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
