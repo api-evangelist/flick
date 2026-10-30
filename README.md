@@ -64,24 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flick is an AI filmmaking studio that lets creators direct short films with AI on an infinite, node-based canvas. Rather than a linear prompt-to-clip generator, Flick gives directors a nonlinear workspace to plan, iterate and assemble complete narratives of any length — generating scenes, keeping character faces and styles consistent across shots, controlling shot composition, and editing images by reference.
+Flick is an AI filmmaking studio that lets creators direct short films with AI on an infinite, node-based canvas. Rather than a linear prompt-to-clip generator, Flick gives directors a nonlinear workspace to plan, iterate and assemble complete narratives of any length — generating scenes, keeping character faces and styles consistent across shots, controlling shot composition, and editing images by reference. The product is a web app with a free tier (300 credits) and paid plans from $5/month, plus a Creative Partner Program and a Filmmaker Residency for AI filmmakers. Flick was founded by Ray Wang (previously a founding engineer on the Instagram AI team) and award-winning filmmaker Zoey Zhang, and is Y Combinator- and GV-backed. Flick publishes product documentation, a blog and a verbatim llms.txt, but does not currently expose a public developer API, SDKs, webhooks or an MCP server — the /api/ surface is an internal application API that robots.txt explicitly disallows.
 
-- Website: https://flick.art
-- Documentation: https://flick.art/docs/
-- Pricing: https://flick.art/pricing (free tier with 300 credits; paid plans from $5/mo)
-- Community: https://discord.gg/SPYgXej78k
+**Areas:** Company · Artificial Intelligence · Generative AI · Video · Filmmaking · Media and Entertainment · Creative Tools · Content Creation
 
-Founded by Ray Wang (previously a founding engineer on the Instagram AI team) and award-winning filmmaker Zoey Zhang. Y Combinator- and GV-backed.
+## Flick on APIs.io
 
-## API surface
+Everything profiled for Flick is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flick/](https://apis.io/providers/flick/)** — or go straight to one of the APIs or properties below.
 
-Flick does **not** currently publish a public developer API, SDKs, webhooks, or an MCP server. The `/api/` path is an internal application API that `robots.txt` explicitly disallows. No first-party packages were found on npm or PyPI, and no public GitHub organization exists. Flick does publish a real `llms.txt`, captured verbatim in `llms/`.
+### Published properties
 
-## Identity note
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-This repo was created as a merged VC-portfolio stub from **two different companies named "Flick"**:
+#### Security (1)
 
-- **Bullpen Capital's Flick** (`flickapp.com`) — a sports fan-engagement group-chat app founded in Edinburgh by FanDuel co-founders Nigel Eccles and Rob Jones. It is **deadpooled**, and `flickapp.com` now resolves to an unrelated Indonesian gambling spam site (verified 2026-07-20). That domain has been removed from this profile.
-- **GV's Flick** (`flick.art`) — the live AI filmmaking studio profiled here.
+Authentication, trust centre, and vulnerability disclosure.
 
-The defunct `flickapp.com` company should be tracked separately or dropped rather than conflated with this one.
+- [Flick Domain Security](https://apis.io/security/flick/flick-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flick.art)
+- [Documentation](https://flick.art/docs/)
+- [Getting started](https://flick.art/docs/create-your-first-project)
+- [Pricing](https://flick.art/pricing)
+- [Sign up](https://flick.art/auth)
+- [Support](https://discord.gg/SPYgXej78k)
+- [Blog](https://flick.art/blog)
+- [Terms of service](https://flick.art/terms)
+- [Privacy policy](https://flick.art/privacy)
+
+## API Evangelist rating
+
+**Kin Score 9.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flick/](https://apis.io/providers/flick/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flick: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flick/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
